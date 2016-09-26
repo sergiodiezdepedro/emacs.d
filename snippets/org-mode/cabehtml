@@ -1,0 +1,13 @@
+# -*- mode: snippet -*-
+# name: cabehtml
+# key: cabehtml
+# --
+#+TITLE: $1
+#+LANGUAGE: es
+#+OPTIONS: toc:nil h:4 html-postamble:nil html-preamble:t tex:t f:t
+#+OPTIONS: prop:("VERSION")
+#+HTML_DOCTYPE: <!DOCTYPE html>
+#+HTML_HEAD: <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+#+HTML_HEAD: <link href="css/$2.css" rel="stylesheet" type="text/css" />
+#+AUTHOR: $3
+#+EMAIL: mailto:$4

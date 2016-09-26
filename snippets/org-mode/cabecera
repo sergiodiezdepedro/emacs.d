@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: cabecera
+# key: cabecera
+# --
+
+#+TITLE: $1
+#+AUTHOR: Sergio Díez de Pedro
+#+EMAIL: sergio.d.depedro@gmail.com
+#+DATE: $2

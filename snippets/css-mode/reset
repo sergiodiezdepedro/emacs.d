@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: reset
+# key: reset
+# --
+* {
+margin: 0;
+padding: 0;
+}
