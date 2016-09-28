@@ -33,6 +33,8 @@
 
  )
 
+(add-to-list 'load-path "~/.emacs.d/lisp/")
+
 (when window-system
   (tool-bar-mode -1))
 
@@ -174,3 +176,7 @@
 ;; make ctrl-Z redo
 (defalias 'redo 'undo-tree-redo)
 (global-set-key (kbd "C-S-z") 'redo)
+
+(require 'hl-tags-mode)
+(add-hook 'sgml-mode-hook (lambda () (hl-tags-mode 1)))
+(add-hook 'nxml-mode-hook (lambda () (hl-tags-mode 1)))
