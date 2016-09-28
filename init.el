@@ -33,6 +33,7 @@
 
  )
 
+;;Directorio para modos menores y utilidades sin repositorio
 (add-to-list 'load-path "~/.emacs.d/lisp/")
 
 (when window-system
