@@ -2,7 +2,12 @@
 ;;; This format is meant to be slightly human-readable;
 ;;; nevertheless, you probably don't want to edit it.
 ;;; -*- End Of Bookmark File Format Version Stamp -*-
-(("NotasOrgMode"
+(("Directorio_Org"
+ (filename . "~/Dropbox/org/")
+ (front-context-string . "/home/pezhammer/")
+ (rear-context-string)
+ (position . 3))
+("NotasOrgMode"
  (filename . "~/Dropbox/org/notas_sobre_org-mode.org")
  (front-context-string)
  (rear-context-string . "ks with Org]]\n\n\n")
@@ -18,8 +23,8 @@
  (rear-context-string . "le de un nombre,")
  (position . 7578))
 ("org-capture-last-stored"
- (filename . "~/Dropbox/org/notas.org")
- (front-context-string . "** TODO Abortar ")
- (rear-context-string . " son unas notas\n")
- (position . 30))
+ (filename . "~/Dropbox/org/tareas.org")
+ (front-context-string . "** TODO Reformar")
+ (rear-context-string)
+ (position . 10))
 )

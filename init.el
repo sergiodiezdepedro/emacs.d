@@ -1,3 +1,6 @@
+(setq user-full-name "Sergio Díez de Pedro")
+(setq user-mail-address "sergio.d.depedro@gmail.com")
+
 (custom-set-variables
 
  '(column-number-mode t)
@@ -61,8 +64,18 @@
 (define-key global-map "\C-cl" 'org-store-link)
 (define-key global-map "\C-ca" 'org-agenda)
 (setq org-log-done t)
+
+;; Org Capture
 (setq org-default-notes-file (concat org-directory "/notas.org"))
-     (define-key global-map "\C-cc" 'org-capture)
+(define-key global-map "\C-cc" 'org-capture)
+(setq org-capture-templates
+      '(("t" "Tareas" entry (file+headline "~/Dropbox/org/tareas.org" "Tareas")
+             "* TODO %?\n  %i\n  %a")
+        ("d" "Diario" entry (file+datetree "~/Dropbox/org/diario.org")
+	 "* %?\nAnotado el %U\n  %i\n  %a")
+        ("n" "Nota" entry (file "~/Dropbox/org/notas.org")
+               "* %? :NOTA:\n%U\n%a\n" :clock-in t :clock-resume t)))
+        
 
 (setq org-src-fontify-natively t)
 

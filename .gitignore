@@ -1,6 +1,9 @@
 ac-comphist.dat
+history
+init.el~
 auto-save-list/
 elpa/
 recentf
 recentf~
 url/
+.mc-lists.el
