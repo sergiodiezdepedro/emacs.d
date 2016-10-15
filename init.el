@@ -195,3 +195,7 @@
 (require 'hl-tags-mode)
 (add-hook 'sgml-mode-hook (lambda () (hl-tags-mode 1)))
 (add-hook 'nxml-mode-hook (lambda () (hl-tags-mode 1)))
+
+;; Magit
+(global-set-key (kbd "C-x g") 'magit-status)
+(global-set-key (kbd "C-x M-g") 'magit-dispatch-popup)
