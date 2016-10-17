@@ -205,3 +205,11 @@
 (add-to-list 'auto-mode-alist '("\\.textile\\'" . textile-mode))
 ;; Exportación desde Org Mode
 (require 'ox-textile)
+
+;; Org-Beautify Theme. Parcheado para que se pueda cargar.
+;; La última línea comentada hace que la carga sea automática al abrir un archivo .org 
+(add-to-list 'custom-theme-load-path
+(concat
+"~/.emacs.d/elpa/"
+(elt (directory-files "~/.emacs.d/elpa/" nil "org-beautify-theme-20160829.2146") 0)))
+;;(add-hook 'org-mode-hook (lambda () (load-theme 'org-beautify)))
