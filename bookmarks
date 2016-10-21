@@ -23,8 +23,8 @@
  (rear-context-string . "le de un nombre,")
  (position . 7578))
 ("org-capture-last-stored"
- (filename . "~/Dropbox/org/tareas.org")
- (front-context-string . "** TODO Reformar")
- (rear-context-string)
- (position . 10))
+ (filename . "~/Dropbox/org/diario.org")
+ (front-context-string . "**** Oficios \nUn")
+ (rear-context-string . "016-10-17 lunes\n")
+ (position . 193))
 )
