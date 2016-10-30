@@ -24,7 +24,7 @@
  (position . 7578))
 ("org-capture-last-stored"
  (filename . "~/Dropbox/org/diario.org")
- (front-context-string . "**** Oficios \nUn")
- (rear-context-string . "016-10-17 lunes\n")
- (position . 193))
+ (front-context-string . "**** El futuro y")
+ (rear-context-string . "16-10-27 jueves\n")
+ (position . 541))
 )
