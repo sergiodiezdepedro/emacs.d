@@ -90,7 +90,8 @@
 
 ;;Temas de MELPA
 ;;(load-theme 'monokai t)
-(load-theme 'seti t)
+;;(load-theme 'seti t)
+(load-theme 'material t)
 
 ;; Auto-complete
 (require 'auto-complete)
