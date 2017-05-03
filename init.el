@@ -2,24 +2,19 @@
 (setq user-mail-address "sergio.d.depedro@gmail.com")
 
 (custom-set-variables
-
+ ;; custom-set-variables was added by Custom.
+ ;; If you edit it by hand, you could mess it up, so be careful.
+ ;; Your init file should contain only one such instance.
+ ;; If there is more than one, they won't work right.
  '(column-number-mode t)
- 
  '(cursor-type (quote bar))
- 
  '(custom-enabled-themes (quote (seti)))
- 
  '(display-time-24hr-format t)
  '(display-time-mode t)
- 
  '(global-visual-line-mode t)
- 
  '(helm-mode 1)
- 
  '(inhibit-startup-screen t)
- 
  '(markdown-command "markdown")
- 
  '(org-agenda-files
    (quote
     ("~/Dropbox/org/tareas.org.txt" "~/Dropbox/org/formacion_front-end.org" "~/Dropbox/org/notas_sobre_org-mode.org")))
@@ -28,12 +23,16 @@
  '(org-footnote-auto-adjust t)
  '(org-footnote-define-inline nil)
  '(org-footnote-section "Notas")
- '(show-paren-mode 1)
-
- )
+ '(package-selected-packages
+   (quote
+    (yasnippet web-beautify undo-tree textile-mode skewer-mode seti-theme scss-mode rainbow-mode powerline php-mode ox-twbs ox-textile ox-reveal org-bullets org-beautify-theme multiple-cursors monokai-theme material-theme markdown-preview-mode magit lorem-ipsum jade-mode htmlize helm go-mode go-autocomplete exec-path-from-shell emmet-mode autopair ack ace-window)))
+ '(show-paren-mode 1))
 
 (custom-set-faces
-
+ ;; custom-set-faces was added by Custom.
+ ;; If you edit it by hand, you could mess it up, so be careful.
+ ;; Your init file should contain only one such instance.
+ ;; If there is more than one, they won't work right.
  )
 
 ;;Directorio para modos menores y utilidades sin repositorio
@@ -96,7 +95,7 @@
 ;; Auto-complete
 (require 'auto-complete)
 (global-auto-complete-mode t)
-(add-to-list 'ac-dictionary-directories "~/.emacs.d/elpa/auto-complete-20161029.643/dict")
+(add-to-list 'ac-dictionary-directories "~/.emacs.d/elpa/auto-complete-20170124.1845/dict")
 (require 'auto-complete-config) 
 (ac-config-default)
 
