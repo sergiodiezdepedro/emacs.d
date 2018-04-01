@@ -25,7 +25,7 @@
  '(org-footnote-section "Notas")
  '(package-selected-packages
    (quote
-    (yasnippet web-beautify undo-tree textile-mode skewer-mode seti-theme scss-mode rainbow-mode powerline php-mode ox-twbs ox-textile ox-reveal org-bullets org-beautify-theme multiple-cursors monokai-theme material-theme markdown-preview-mode magit lorem-ipsum jade-mode htmlize helm go-mode go-autocomplete exec-path-from-shell emmet-mode autopair ack ace-window)))
+    (magit-popup yasnippet web-beautify undo-tree textile-mode skewer-mode seti-theme scss-mode rainbow-mode powerline php-mode ox-twbs ox-textile ox-reveal org-bullets org-beautify-theme multiple-cursors monokai-theme material-theme markdown-preview-mode magit lorem-ipsum jade-mode htmlize helm go-mode go-autocomplete exec-path-from-shell emmet-mode autopair ack ace-window)))
  '(show-paren-mode 1))
 
 (custom-set-faces

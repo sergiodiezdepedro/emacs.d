@@ -7,11 +7,6 @@
  (front-context-string . "* Angular 2 \n\n[[")
  (rear-context-string)
  (position . 1))
-("pwd"
- (filename . "~/Dropbox/org/pwd.org")
- (front-context-string . "#+TITLE: pwd\n#+A")
- (rear-context-string)
- (position . 1))
 ("Directorio_Org"
  (filename . "~/Dropbox/org/")
  (front-context-string . "/home/pezhammer/")
