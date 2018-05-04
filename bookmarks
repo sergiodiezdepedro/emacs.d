@@ -2,12 +2,7 @@
 ;;; This format is meant to be slightly human-readable;
 ;;; nevertheless, you probably don't want to edit it.
 ;;; -*- End Of Bookmark File Format Version Stamp -*-
-(("Artículos_tecnologías.org"
- (filename . "~/Dropbox/org/Artículos_tecnologías.org")
- (front-context-string . "* Angular 2 \n\n[[")
- (rear-context-string)
- (position . 1))
-("Directorio_Org"
+(("Directorio_Org"
  (filename . "~/Dropbox/org/")
  (front-context-string . "/home/pezhammer/")
  (rear-context-string)
